@@ -1,0 +1,20 @@
+{
+  "name": "hola-mundo-certificados",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para un servidor HTTPS que responde con '¡Hola Mundo!'",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "prod": "pm2 start src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
